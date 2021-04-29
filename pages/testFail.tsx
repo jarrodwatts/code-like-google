@@ -5,10 +5,11 @@ import React from "react";
  * Home Page of the Application
  * @return {JSX.Element}
  */
-export default function Home(): JSX.Element {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        {/* This is fucked */}
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
